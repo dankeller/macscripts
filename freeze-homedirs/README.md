@@ -12,7 +12,7 @@ To use:
 
 How
 --------
-The script runs a boot and uses ditto to create a backup of the home directory if no backup exists and it sees the flag. Then, on each subsequent boot, checks to see if it needs to update the backup and uses rsync to restore the original state of any files that changed.
+The script runs at boot and uses ditto to create a backup of the home directory if no backup exists and it sees the flag. Then, on each subsequent boot, checks to see if it needs to update the backup and uses rsync to restore the original state of any files that changed.
 
 Why
 --------
