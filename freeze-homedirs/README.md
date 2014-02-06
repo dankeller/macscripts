@@ -16,4 +16,4 @@ The script runs a boot and uses ditto to create a backup of the home directory i
 
 Why
 --------
-We needed to freeze a some local accounts that are part of our image but not freeze everything else, like installed applications, system settings and network user's home folders. Changing the script to an opt-in model instead of opt-out made this possible.
+We needed to freeze a some local accounts but not everything else, like installed applications, system settings (a la Deep Freeze) or network user's home folders. Changing the script to an opt-in model instead of opt-out made this possible.
