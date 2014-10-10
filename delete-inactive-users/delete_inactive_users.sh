@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Modified 2014-10-02
-# remove_inactive_users.sh
+# delete_inactive_users.sh
 # Maintained at https://github.com/dankeller/macscripts
 # by Dan Keller
 #
