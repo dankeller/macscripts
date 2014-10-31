@@ -1,24 +1,25 @@
 #!/bin/bash
 
-# Modified 2014-10-02
-# delete_inactive_users.sh
-# Maintained at https://github.com/dankeller/macscripts
-# by Dan Keller
+#  Modified 2014-10-31
+#  delete_inactive_users.sh
+#  Maintained at https://github.com/dankeller/macscripts
+#  by Dan Keller
 #
-# MIT License
+#  MIT License
 #
 #======================================
 #
-# Script to delete local user data that has not been accessed in a given time
-# period.
+#  Script to delete local user data that has not been accessed in a given time
+#  period.
 #
-# This script scans the /Users folder for the date last updated (logged in)
-# and deletes the folder as well as the corresponding user account if it has been
-# longer than the tiome specified. You can specify user folders to keep as well.
+#  This script scans the /Users folder for the date last updated (logged in)
+#  and deletes the folder as well as the corresponding user account if it has
+#  been longer than the tiome specified. You can specify user folders to keep as
+#  well.
 #
-# User data not stored in /Users is not effected.
+#  User data not stored in /Users is not effected.
 #
-# Helpful for maintaing shared/lab Macs connected to an AD/OD/LDAP server.
+#  Helpful for maintaing shared/lab Macs connected to an AD/OD/LDAP server.
 #
 #======================================
 
